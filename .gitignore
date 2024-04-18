@@ -5,3 +5,7 @@ package-lock.json
 *.swp
 samples/**/*.mp4
 samples/**/*.webm
+
+# macOS
+.DS_Store
+*.pem
