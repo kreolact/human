@@ -36177,65 +36177,19 @@ var WebCam = class {
 // models/models.json
 var models_exports = {};
 __export(models_exports, {
-  "affectnet-mobilenet": () => affectnet_mobilenet,
-  age: () => age,
-  "anti-spoofing": () => anti_spoofing,
   antispoof: () => antispoof,
   blazeface: () => blazeface,
-  "blazeface-back": () => blazeface_back,
-  "blazeface-front": () => blazeface_front,
-  "blazepose-detector": () => blazepose_detector,
-  "blazepose-full": () => blazepose_full,
-  "blazepose-heavy": () => blazepose_heavy,
-  "blazepose-lite": () => blazepose_lite,
   centernet: () => centernet,
   default: () => models_default,
-  efficientpose: () => efficientpose,
-  "efficientpose-i-lite": () => efficientpose_i_lite,
-  "efficientpose-ii-lite": () => efficientpose_ii_lite,
-  "efficientpose-iv": () => efficientpose_iv,
   emotion: () => emotion,
-  faceboxes: () => faceboxes,
   facemesh: () => facemesh,
-  "facemesh-attention": () => facemesh_attention,
-  "facemesh-attention-pinto": () => facemesh_attention_pinto,
-  "facemesh-detection-full": () => facemesh_detection_full,
-  "facemesh-detection-short": () => facemesh_detection_short,
   faceres: () => faceres,
-  "faceres-deep": () => faceres_deep,
-  gear: () => gear,
-  "gear-e1": () => gear_e1,
-  "gear-e2": () => gear_e2,
-  gender: () => gender,
-  "gender-ssrnet-imdb": () => gender_ssrnet_imdb,
-  handdetect: () => handdetect,
-  "handlandmark-full": () => handlandmark_full,
   "handlandmark-lite": () => handlandmark_lite,
-  "handlandmark-sparse": () => handlandmark_sparse,
-  handskeleton: () => handskeleton,
   handtrack: () => handtrack,
-  "insightface-efficientnet-b0": () => insightface_efficientnet_b0,
-  "insightface-ghostnet-strides1": () => insightface_ghostnet_strides1,
-  "insightface-ghostnet-strides2": () => insightface_ghostnet_strides2,
-  "insightface-mobilenet-emore": () => insightface_mobilenet_emore,
-  "insightface-mobilenet-swish": () => insightface_mobilenet_swish,
   iris: () => iris,
   liveness: () => liveness,
-  meet: () => meet,
-  mobileface: () => mobileface,
-  mobilefacenet: () => mobilefacenet,
   models: () => models,
-  "movenet-lightning": () => movenet_lightning,
-  "movenet-multipose": () => movenet_multipose,
-  "movenet-thunder": () => movenet_thunder,
-  nanodet: () => nanodet,
-  "nanodet-e": () => nanodet_e,
-  "nanodet-g": () => nanodet_g,
-  "nanodet-m": () => nanodet_m,
-  "nanodet-t": () => nanodet_t,
-  posenet: () => posenet,
-  rvm: () => rvm,
-  selfie: () => selfie
+  "movenet-lightning": () => movenet_lightning
 });
 var antispoof = 853098;
 var blazeface = 538928;
@@ -36249,52 +36203,6 @@ var iris = 2599092;
 var liveness = 592976;
 var models = 0;
 var movenet_lightning = 4650216;
-var affectnet_mobilenet = 6920630;
-var age = 161240;
-var blazeface_back = 538928;
-var blazeface_front = 402048;
-var blazepose_detector = 5928856;
-var blazepose_full = 6339202;
-var blazepose_heavy = 27502466;
-var blazepose_lite = 2726402;
-var efficientpose = 5651240;
-var faceboxes = 2013002;
-var facemesh_attention_pinto = 2387598;
-var facemesh_attention = 2382414;
-var facemesh_detection_full = 1026192;
-var facemesh_detection_short = 201268;
-var faceres_deep = 13957620;
-var gear_e1 = 112438;
-var gear_e2 = 112438;
-var gear = 1498916;
-var gender_ssrnet_imdb = 161236;
-var gender = 201808;
-var handdetect = 3515612;
-var handlandmark_full = 5431368;
-var handlandmark_sparse = 5286322;
-var handskeleton = 5502280;
-var meet = 372228;
-var mobileface = 2183192;
-var mobilefacenet = 5171976;
-var movenet_multipose = 9448838;
-var movenet_thunder = 12477112;
-var nanodet = 7574558;
-var posenet = 5032780;
-var rvm = 3739355;
-var selfie = 212886;
-var anti_spoofing = 853098;
-var efficientpose_i_lite = 2269064;
-var efficientpose_ii_lite = 5651240;
-var efficientpose_iv = 25643252;
-var insightface_efficientnet_b0 = 13013224;
-var insightface_ghostnet_strides1 = 8093408;
-var insightface_ghostnet_strides2 = 8049584;
-var insightface_mobilenet_emore = 6938536;
-var insightface_mobilenet_swish = 12168584;
-var nanodet_e = 12319156;
-var nanodet_g = 7574558;
-var nanodet_m = 1887474;
-var nanodet_t = 5294216;
 var models_default = {
   antispoof,
   blazeface,
@@ -36307,53 +36215,7 @@ var models_default = {
   iris,
   liveness,
   models,
-  "movenet-lightning": movenet_lightning,
-  "affectnet-mobilenet": affectnet_mobilenet,
-  age,
-  "blazeface-back": blazeface_back,
-  "blazeface-front": blazeface_front,
-  "blazepose-detector": blazepose_detector,
-  "blazepose-full": blazepose_full,
-  "blazepose-heavy": blazepose_heavy,
-  "blazepose-lite": blazepose_lite,
-  efficientpose,
-  faceboxes,
-  "facemesh-attention-pinto": facemesh_attention_pinto,
-  "facemesh-attention": facemesh_attention,
-  "facemesh-detection-full": facemesh_detection_full,
-  "facemesh-detection-short": facemesh_detection_short,
-  "faceres-deep": faceres_deep,
-  "gear-e1": gear_e1,
-  "gear-e2": gear_e2,
-  gear,
-  "gender-ssrnet-imdb": gender_ssrnet_imdb,
-  gender,
-  handdetect,
-  "handlandmark-full": handlandmark_full,
-  "handlandmark-sparse": handlandmark_sparse,
-  handskeleton,
-  meet,
-  mobileface,
-  mobilefacenet,
-  "movenet-multipose": movenet_multipose,
-  "movenet-thunder": movenet_thunder,
-  nanodet,
-  posenet,
-  rvm,
-  selfie,
-  "anti-spoofing": anti_spoofing,
-  "efficientpose-i-lite": efficientpose_i_lite,
-  "efficientpose-ii-lite": efficientpose_ii_lite,
-  "efficientpose-iv": efficientpose_iv,
-  "insightface-efficientnet-b0": insightface_efficientnet_b0,
-  "insightface-ghostnet-strides1": insightface_ghostnet_strides1,
-  "insightface-ghostnet-strides2": insightface_ghostnet_strides2,
-  "insightface-mobilenet-emore": insightface_mobilenet_emore,
-  "insightface-mobilenet-swish": insightface_mobilenet_swish,
-  "nanodet-e": nanodet_e,
-  "nanodet-g": nanodet_g,
-  "nanodet-m": nanodet_m,
-  "nanodet-t": nanodet_t
+  "movenet-lightning": movenet_lightning
 };
 
 // src/tfjs/load.ts
@@ -40748,10 +40610,40 @@ function drawLabels(f, ctx) {
   if (f.live)
     l = replace(l, "[live]", 100 * f.live);
   if (f.emotion && f.emotion.length > 0) {
-    const emotion2 = f.emotion.map((a) => `${Math.trunc(100 * a.score)}% ${a.emotion}`);
+    const emotionAll = f.emotion.map((a) => `${Math.trunc(100 * a.score)}% ${a.emotion}`);
+    if (emotionAll.length > 3)
+      emotionAll.length = 3;
+    l = replace(l, "[emotionsAll]", emotionAll.join(" "));
+    const emotions = f.emotion.map((a) => `${a.emotion}: ${Math.trunc(100 * a.score)}%`);
+    if (emotions.length > 3)
+      emotions.length = 3;
+    l = replace(l, "[emotions]", emotions[0]);
+    const emotion1 = f.emotion.map((a) => `${a.emotion}`);
+    if (emotion1.length > 3)
+      emotion1.length = 3;
+    l = replace(l, "[emotion]", emotion1[0]);
+    const emotion2 = f.emotion.map((a) => `${Math.trunc(100 * a.score)}`);
     if (emotion2.length > 3)
       emotion2.length = 3;
-    l = replace(l, "[emotions]", emotion2.join(" "));
+    l = replace(l, "[emotionScore]", emotion2[0]);
+  }
+  if (f.race && f.race.length > 0) {
+    const raceAll = f.race.map((a) => `${Math.trunc(100 * a.score)}% ${a.race}`);
+    if (raceAll.length > 3)
+      raceAll.length = 3;
+    l = replace(l, "[racesAll]", raceAll.join(" "));
+    const races = f.race.map((a) => `${a.race}: ${Math.trunc(100 * a.score)}%`);
+    if (races.length > 3)
+      races.length = 3;
+    l = replace(l, "[races]", races[0]);
+    const race1 = f.race.map((a) => `${a.race}`);
+    if (race1.length > 3)
+      race1.length = 3;
+    l = replace(l, "[race]", race1[0]);
+    const race2 = f.race.map((a) => `${Math.trunc(100 * a.score)}`);
+    if (race2.length > 3)
+      race2.length = 3;
+    l = replace(l, "[raceScore]", race2[0]);
   }
   if ((_c2 = (_b = f.rotation) == null ? void 0 : _b.angle) == null ? void 0 : _c2.roll)
     l = replace(l, "[roll]", rad2deg(f.rotation.angle.roll));
@@ -40819,15 +40711,9 @@ function drawGazeArrows(f, ctx) {
   if (localOptions.drawGaze && ((_a2 = f.rotation) == null ? void 0 : _a2.gaze.strength) && f.rotation.gaze.bearing && f.annotations.leftEyeIris && f.annotations.rightEyeIris && f.annotations.leftEyeIris[0] && f.annotations.rightEyeIris[0]) {
     ctx.strokeStyle = "pink";
     ctx.fillStyle = "pink";
-    const leftGaze = [
-      f.annotations.leftEyeIris[0][0] + Math.sin(f.rotation.gaze.bearing) * f.rotation.gaze.strength * f.box[3],
-      f.annotations.leftEyeIris[0][1] + Math.cos(f.rotation.gaze.bearing) * f.rotation.gaze.strength * f.box[2]
-    ];
+    const leftGaze = [f.annotations.leftEyeIris[0][0] + Math.sin(f.rotation.gaze.bearing) * f.rotation.gaze.strength * f.box[3], f.annotations.leftEyeIris[0][1] + Math.cos(f.rotation.gaze.bearing) * f.rotation.gaze.strength * f.box[2]];
     arrow(ctx, [f.annotations.leftEyeIris[0][0], f.annotations.leftEyeIris[0][1]], [leftGaze[0], leftGaze[1]], 4);
-    const rightGaze = [
-      f.annotations.rightEyeIris[0][0] + Math.sin(f.rotation.gaze.bearing) * f.rotation.gaze.strength * f.box[3],
-      f.annotations.rightEyeIris[0][1] + Math.cos(f.rotation.gaze.bearing) * f.rotation.gaze.strength * f.box[2]
-    ];
+    const rightGaze = [f.annotations.rightEyeIris[0][0] + Math.sin(f.rotation.gaze.bearing) * f.rotation.gaze.strength * f.box[3], f.annotations.rightEyeIris[0][1] + Math.cos(f.rotation.gaze.bearing) * f.rotation.gaze.strength * f.box[2]];
     arrow(ctx, [f.annotations.rightEyeIris[0][0], f.annotations.rightEyeIris[0][1]], [rightGaze[0], rightGaze[1]], 4);
   }
 }
@@ -42598,10 +42484,10 @@ async function predict6(image, config3, idx, count2) {
       lastTime5 = now();
       Lt(enhanced);
       const genderT = resT.find((t10) => t10.shape[1] === 1);
-      const gender2 = await genderT.data();
-      const confidence = Math.trunc(200 * Math.abs(gender2[0] - 0.5)) / 100;
+      const gender = await genderT.data();
+      const confidence = Math.trunc(200 * Math.abs(gender[0] - 0.5)) / 100;
       if (confidence > (config3.face.description.minConfidence || 0)) {
-        obj.gender = gender2[0] <= 0.5 ? "female" : "male";
+        obj.gender = gender[0] <= 0.5 ? "female" : "male";
         obj.genderScore = Math.min(0.99, confidence);
       }
       const argmax = w1(resT.find((t10) => t10.shape[1] === 100), 1);
@@ -42610,7 +42496,7 @@ async function predict6(image, config3, idx, count2) {
       const ageT = resT.find((t10) => t10.shape[1] === 100);
       const all2 = await ageT.data();
       obj.age = Math.round(all2[ageIdx - 1] > all2[ageIdx + 1] ? 10 * ageIdx - 100 * all2[ageIdx - 1] : 10 * ageIdx + 100 * all2[ageIdx + 1]) / 10;
-      if (Number.isNaN(gender2[0]) || Number.isNaN(all2[0]))
+      if (Number.isNaN(gender[0]) || Number.isNaN(all2[0]))
         log("faceres error:", { model: model9, result: resT });
       const desc = resT.find((t10) => t10.shape[1] === 1024);
       const descriptor = desc ? await desc.data() : [];
@@ -42783,9 +42669,9 @@ async function predict9(image, config3, idx, count2) {
     const obj = { age: 0, gender: "unknown", genderScore: 0, race: [] };
     if ((_c2 = config3.face.gear) == null ? void 0 : _c2.enabled)
       [t10.age, t10.gender, t10.race] = model12.execute(t10.resize, ["age_output", "gender_output", "race_output"]);
-    const gender2 = await t10.gender.data();
-    obj.gender = gender2[0] > gender2[1] ? "male" : "female";
-    obj.genderScore = Math.round(100 * (gender2[0] > gender2[1] ? gender2[0] : gender2[1])) / 100;
+    const gender = await t10.gender.data();
+    obj.gender = gender[0] > gender[1] ? "male" : "female";
+    obj.genderScore = Math.round(100 * (gender[0] > gender[1] ? gender[0] : gender[1])) / 100;
     const race = await t10.race.data();
     for (let i = 0; i < race.length; i++) {
       if (race[i] > (((_d2 = config3.face.gear) == null ? void 0 : _d2.minConfidence) || 0.2))
@@ -42794,10 +42680,10 @@ async function predict9(image, config3, idx, count2) {
     obj.race.sort((a, b) => b.score - a.score);
     const ageDistribution = Array.from(await t10.age.data());
     const ageSorted = ageDistribution.map((a, i) => [ageWeights[i], a]).sort((a, b) => b[1] - a[1]);
-    let age2 = ageSorted[0][0];
+    let age = ageSorted[0][0];
     for (let i = 1; i < ageSorted.length; i++)
-      age2 += ageSorted[i][1] * (ageSorted[i][0] - age2);
-    obj.age = Math.round(10 * age2) / 10;
+      age += ageSorted[i][1] * (ageSorted[i][0] - age);
+    obj.age = Math.round(10 * age) / 10;
     Object.keys(t10).forEach((tensor) => Lt(t10[tensor]));
     last5[idx] = obj;
     lastCount5 = count2;

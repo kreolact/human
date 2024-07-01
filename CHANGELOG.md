@@ -9,7 +9,10 @@
   
 ## Changelog
   
-### **HEAD -> main** 2024/04/17 mandic00@live.com
+### **HEAD -> main** 2024/04/18 appdev@kreolact.com
+
+
+### **upstream/main** 2024/04/17 mandic00@live.com
 
 - release rebuild
 - fix flazeface tensor scale and update build platform
